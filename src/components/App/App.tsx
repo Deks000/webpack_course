@@ -14,18 +14,18 @@ export const App = () => {
     const [count, setCount] = useState<number>(0);
 
     const increment = () => setCount(prev => prev + 1)
-    TODO(51325)
-    if (__PLATFORM__ === 'desktop') {
-        return <div>ISDESKTOPPLATFORM</div>
-    }
-
-    if (__PLATFORM__ === 'mobile') {
-        return <div>ISMOBILELATFORM</div>
-    }
-
-    if (__ENV__ === 'development') {
-        // addDevtools()
-    }
+    // TODO('51325')
+    // if (__PLATFORM__ === 'desktop') {
+    //     return <div>ISDESKTOPPLATFORM</div>
+    // }
+    //
+    // if (__PLATFORM__ === 'mobile') {
+    //     return <div>ISMOBILELATFORM</div>
+    // }
+    //
+    // if (__ENV__ === 'development') {
+    //     // addDevtools()
+    // }
 
     return (
         <div>
